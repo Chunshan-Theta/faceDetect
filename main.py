@@ -37,10 +37,6 @@ class PicData:
 		    cv2.rectangle(img, (x1, y1), (x2, y2), color, 2)
 		return img
 
-	def PostData(self):
-		#import requests as rq
-		#r = rq.post("http://"+HostIP+"/pi/SQLAPI.php",data={"action":"InsertSql","PeopleNum":self.PeopleNum,"Time":self.RightNowShame})
-		print "you should't run this"
 if __name__ == '__main__':
 
 	import sys, getopt
